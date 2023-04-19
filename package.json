@@ -1,0 +1,23 @@
+{
+  "name": "get-shitty",
+  "version": "1.0.0",
+  "publisher": "Kyle Reynolds",
+  "description": "Adds random whitespace to Python code",
+  "repository": "https://github.com/KDreynolds/get_shitty_python",
+  "main": "extension.js",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.getShitty",
+        "title": "Get Shitty"
+      }
+    ]
+  },
+  "activationEvents": [
+    "onCommand:extension.getShitty"
+  ],
+  "license": "MIT"
+}
